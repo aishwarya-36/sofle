@@ -36,7 +36,7 @@
     };
        sensors: sensors {
         compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder &right_encoder>;
+        sensors = <&right_encoder>;
         triggers-per-rotation = <20>;
     };
     default_transform: matrix_transform {
