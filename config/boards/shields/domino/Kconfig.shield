@@ -1,0 +1,5 @@
+config SHIELD_DOMINO_LEFT
+    def_bool $(shields_list_contains,domino_left)
+
+config SHIELD_DOMINO_RIGHT
+    def_bool $(shields_list_contains,domino_right)
