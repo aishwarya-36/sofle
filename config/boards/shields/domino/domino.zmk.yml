@@ -1,0 +1,15 @@
+file_format: "1"
+id: domino
+name: Domino
+type: shield
+url: https://github.com/aishwarya-36/zmk-config
+requires: [nice_nano_v2]
+features:
+  - keys
+  - display
+  - encoder
+  - underglow
+  - studio
+siblings:
+  - domino_left
+  - domino_right
